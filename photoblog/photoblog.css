@@ -1,0 +1,25 @@
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    width: 20%;
+    height: 300px;
+    margin: calc(20%/6);
+}
+
+nav {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.5em 0;
+    font-size: 1.2em;
+}
+
+nav {
+    margin-bottom: 0;
+}
